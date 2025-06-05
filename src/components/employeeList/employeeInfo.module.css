@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px;
+    border: 1px solid #000;
+}
+
+.nameTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.wrapper:nth-child(odd) {
+    background-color: rgb(150, 220, 240);
+}
